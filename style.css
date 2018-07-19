@@ -1,0 +1,15 @@
+body{
+	text-align: center;
+}
+#Nav{
+	border-radius: 25%
+}
+#medium{
+	border-radius: 32px
+}
+a{
+	color: black; 
+}
+img{
+	padding-right: 10px
+}
