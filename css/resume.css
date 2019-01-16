@@ -13,27 +13,33 @@ h1 {
 h2 {
   color: rgba(25, 25, 200, 0.8);
   text-transform: uppercase;
-  font-size: 1em;
-  margin-bottom: 2em;
-  margin-top: 3em; }
+  font-size: 1.25em;
+  margin-bottom: 1em;
+  margin-top: 0em; }
 
 h3 {
   font-weight: normal;
+  margin-top: 0em;
   margin-bottom: 0em; }
 
 h4 {
   margin-top: 0.25em;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.0em;
   text-transform: uppercase;
   font-weight: lighter;
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.65); }
+img{
+  padding-top: 5px;
+}
 
 #metadata {
-  font-size: 0.9em; }
+  font-size: 1em;
+  margin-bottom: 1.4em }
 
 #header p {
-  font-size: 0.9em; }
+  font-size: 1em;
+  margin-top: 0.5em }
 
 #skills p, #tools p {
   line-height: 1.5em;
@@ -42,6 +48,10 @@ h4 {
 .info-section p {
   margin-top: 0em;
   line-height: 1.5em; }
+#resume-bullet-points ul{
+  margin-top: 0em;
+  margin-left: 0em;
+}
 
 #resume-container {
   display: flex;
@@ -49,9 +59,9 @@ h4 {
   justify-content: center; }
   #resume-container #right-column {
     width: 14em;
-    margin-left: 1em;
+    margin-left: .5 em;
     margin-right: 1em; }
   #resume-container #left-column {
     width: 38em;
-    margin-left: 1em;
-    margin-right: 1em; }
+    margin-left: .5em;
+    margin-right: .5em; }
