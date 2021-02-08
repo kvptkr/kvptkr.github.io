@@ -1,91 +1,77 @@
 <!DOCTYPE html>
-<html lang='en'>
-  <head>
-  <title>Kanav Petkar</title>
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://kvptkr.github.io">
-  <meta property="og:title" content="Kanav Petkar">
-  <meta name="theme-color" content="#ffffff">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="google-site-verification" content="lgdqwnBKkDLXSTiTEZBz8Hloqs1L-MOfLiWA5lYxIog" />
-  <style type="text/css">
-  @font-face {
-    font-family: Optima;
-    src: url("/Optima.ttf");
-  }
-  html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Optima-Regular;
-    font-size: 1.6em;
-    color: #000;
-    background-color: #fff;
-    overflow: hidden;
-  }
-  body {
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-    transition: all 0.5s;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow: hidden;
-  }
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: inherit;
-    text-decoration: none;
-  }
-  p {
-    padding: 50px;
-  }
-  p > a {
-    font-weight: bold;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: 0 88%;
-    transition: background-size 0.25s ease-in;
-  }
-  p > a:hover {
-    background-size: 100% 88%;
-  }
-  .floating {  
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-  }
+<html lang="en" style="scroll-behavior: smooth;">
+    <!--
+    ________________________________________________________________
+    // WT0007
+    // Product: link
+    // Built by https://wickedtemplates.com
+    // The above copyright notice and this permission notice shall be included in all copies.
+    --------------------------------------------------------------
+    // Copyright 2020 Wicked Templates by Michael Andreuzza  Twitter: @Mike_Andreuzza (https://www.wickedtemplates.com)
+    ________________________________________________________________
+    ------>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Kanav Petkar</title>
+        <meta name="keywords" content="intern, backend engineering, kanav, petkar">
+        <meta name="theme-color" content="#000000">
+        <link rel="stylesheet" href="./css/tailwind.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;800;900&display=swap"
+            rel="stylesheet">
+         <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">-->
+    </head>
+    <body class="transition-colors bg-indigo-500">
+        <div class="flex flex-col lg:flex-row lg:h-screen ">
+            <!-- Fixed sidebar -->
+            <div class="w-full lg:w-2/6">
+                <div class="flex transition flex-col w-full px-8 py-20 mx-auto lg:pl-20">
+                    <h1
+                        class="mt-12 mb-8 font-semibold tracking-tighter text-center tex16t-2xl text-gray-200 lg:text-left lg:text-7xl title-font">
+                       Kanav Petkar 
+                    </h1>
+                    <p
+                        class="mb-8 text-xl font-semibold leading-5 tracking-tighter text-center text-gray-900 lg:text-left lg:text-1xl">
+                        Student&nbsp; <a class="text-gray-300" href="https://uwaterloo.ca/"><u>@uWaterloo</u></a><br><br>
+                        Backend Engineering Intern&nbsp; <a class="text-gray-300" href="https://www.splunk.com/"><u>@Splunk</u></a> 
+                        <br><br>
+                        Previously: 
+                        <a class="text-gray-300" href="https://autonomic.ai/"><u>@Autonomic</u></a> 
+                        <a class="text-gray-300" href="https://www.toyota.ca/toyota/en/"><u>@Toyota</u></a>
+                        <a class="text-gray-300" href="https://www.capgemini.com/ca-en/"><u>@Capgemini</u></a> <br>
+                        <div class="text-lg font-semibold">
+                            
+                            <u>Favourite Non-Fiction</u> <p class="text-gray-300">1493, Leonardo, The Black Swan, Zero-to-One</p>
+                            <u>Favourite Fiction: </u><p class="text-gray-300">Exhalation, Siddhartha, Kafka on the Shore, Cryptonomicon </p>
+                            <u>Favourite TV Shows:</u> <p class="text-gray-300">Sopranos, Better Call Saul, Archer </p>
+                            <br><br>
+                        </div>
+                    </p>
 
-  @keyframes floating {
-      from { transform: translate(0,  0px); }
-      65%  { transform: translate(0, 15px); }
-      to   { transform: translate(0, -0px); }    
-  }
-    </style>
-  </head>
-  <body>
-    <p class="floating">
-      My name is <b>Kanav</b> <br />
-      Learn more about me on <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/kvptkr">Linkedin</a> <br />
-      Read my  <a target="_blank" rel="noopener noreferrer" href="resume.pdf">Resume</a> <br />
-      Send me an <a target="_blank" rel="noopener noreferrer" href="mailto:k.petkar21@gmail.com">Email</a>
-    </p>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72181251-9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-72181251-9');
-    </script>
-  </body>
+                    <a href="#projects" class="inline-flex font-semibold items-center justify-between my-4 transition group">
+                        <span class="text-xs tracking-tighter text-white group-hover:text-white">01</span>
+                        <span
+                            class="ml-auto text-xs tracking-wide uppercase text-gray-300 group-hover:text-white">Resume</span>
+                    </a>
+                    <a href="#contact" class="inline-flex font-semibold items-center justify-between transition group">
+                        <span class="text-xs tracking-tighter text-gray-300 group-hover:text-white">02</span>
+                        <span
+                            class="ml-auto text-xs tracking-wide uppercase text-gray-300 group-hover:text-white">Github</span>
+                    </a>
+                    <a href="#projects" class="inline-flex items-center font-semibold justify-between my-4 transition group">
+                        <span class="text-xs tracking-tighter text-white group-hover:text-white">03</span>
+                        <span
+                            class="ml-auto text-xs tracking-wide uppercase text-gray-300 group-hover:text-white">Blog</span>
+                    </a>
+                    <a href="#contact" class="inline-flex items-center justify-between font-semibold transition group">
+                        <span class="text-xs tracking-tighter text-gray-300 group-hover:text-white">04</span>
+                        <span
+                            class="ml-auto text-xs tracking-wide uppercase text-gray-300 group-hover:text-white">Contact</span>
+                    </a>
+                    
+                </div>
+            </div>
+            <!-- Scroll wrapper -->
+        </div>
+    </body>
 </html>
